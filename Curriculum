@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi proyecto de vida</title>
+    <link rel="stylesheet" href="diseño.css">
+    <style>
+#principal{
+    border: solid 3px cadetblue;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+fielset{
+
+    margin: 0px;
+
+}
+
+legend{
+border: solid 5px cadetblue;
+padding: 5px;
+font-weight: bold;
+border-radius: 20px;
+background: lightblue;
+}
+
+#mifoto{
+
+    border: solid 3px cadetblue;
+
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', white;
+    font-weight: 100;
+background-size: 100%;
+background: url(https://i.pinimg.com/originals/1e/11/4f/1e114f1d36f5bce0b2859be5d68cf82f.png)
+
+
+}
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <img src="mifoto.jpeg" id="mifoto" width="125" aling="left">
+        <h1>José Andrés Figueroa Pérez</h1>
+        <br>
+        <fieldset>
+            <legend>Datos Generales</legend>
+            <ul>
+                <li>Cédula: 29.597.891</li>
+                <li>Dirección: San Juan de los Morros</li>
+                <li>Numero de Telefono: +58 412-7784372</li>
+                <li>Correo de Contacto: josesitosan1408@gmail.com</li>
+            </ul>
+        </fieldset>
+        <br>
+        <fieldset>
+    <legend>Estudios Realizados</legend>
+    <ul>
+    <li>Secundaria o Bachillerato: En el Colegio Diocesano "San Fernando"</li>
+    <li>Certificado en OFFICE2016: Ayudante de oficina en programas de Microsoft</li>
+    <li>UNERG: Actualmente estudiando en la universidad "Romulo Gallegos"</li>
+    
+    </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Redes sociales</legend>
+    <ul>
+    <li> Español: 100%</li>
+    <li>Ingles: 20%</li>
+    </ul>
+    
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend>Pasatiempos Favoritos</legend>
+    <ul>
+    <li>Generalmente me gusta jugar mucho a los videojuegos, pasarmela en Discord charlando, viendo series y anime...</li>
+    
+        </ul>
+        </fieldset>
+        <br> 
+    </div>
+   
+
+</body>
+</html>
